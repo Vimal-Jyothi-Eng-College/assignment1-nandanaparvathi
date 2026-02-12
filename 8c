@@ -1,0 +1,9 @@
+
+my_dict = {'a': 10, 'b': 20, 'c': 30}
+
+key = input("Enter key to check: ")
+
+if key in my_dict:
+    print("Key exists in dictionary")
+else:
+    print("Key does not exist in dictionary")
